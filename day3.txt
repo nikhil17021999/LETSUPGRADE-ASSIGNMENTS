@@ -1,0 +1,23 @@
+question 1:
+ans-        n=int(input(""))
+sum=0
+while (n >= 0):
+    sum += n
+    n-=1
+print ("sum using while loop ", sum)
+
+question 2:
+ans-       
+                num = int(input("Enter a number: "))  
+  
+if num > 1:  
+   for i in range(2,num):  
+       if (num % i) == 0:  
+           print(num,"is not a prime number")  
+           print(i,"times",num//i,"is",num)  
+           break  
+   else:  
+       print(num,"is a prime number")  
+         
+else:  
+   print(num,"is not a prime number")  
